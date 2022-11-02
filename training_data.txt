@@ -1,0 +1,11 @@
+# im_name x_0 x_1 y_0 y_1
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
+0 NaN NaN NaN NaN
