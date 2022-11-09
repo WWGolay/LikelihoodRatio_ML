@@ -34,7 +34,7 @@ class MultiWVSource:
 
         if lsDownload: self.downloadLSImages()
 
-    def downloadLSImages(self, layers=['vlass1.2', 'unwise-neo4'], pixscale=0.8, size=160):
+    def downloadLSImages(self, layers=['vlass1.2', 'unwise-neo4'], pixscale=0.3514, size=256):
         urlList = []
         for layer in layers:
             urlList.append(gen_LS_url(self.ra, self.dec, layer, pixscale, size))
@@ -59,6 +59,9 @@ class MultiWVSource:
     def setAllCoords(self, x0, x1, y0, y1):
         for image in self.images:
             image.setBoxCoords(x0, x1, y0, y1)
+
+    def setComplexity(self, complexity):
+        self.complexity = complexity
 
     '''def getBoxRaDec(self):
         # Use header to calculate ra/dec from pixel coords
